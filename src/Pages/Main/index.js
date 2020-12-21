@@ -6,7 +6,7 @@ import { TouchableOpacity, StyleSheet } from "react-native";
 export default function Home({ navigation }) {
   return (
     <Container>
-      <Text>Primeira página</Text>
+      <Text>Lorena Felicio</Text>
       <TouchableOpacity
         style={styles.containerButton}
         onPress={() => navigation.navigate("Second")}

@@ -17,7 +17,7 @@ function Routes() {
           options={{
             title: "",
             headerStyle: {
-              backgroundColor: "#E2E2E2",
+              backgroundColor: "#e8cbbb",
               elevation: 0
             },                             
           }}
@@ -28,10 +28,10 @@ function Routes() {
           options={{
             title: "",
             headerStyle: {
-              backgroundColor: "#E2E2E2",
+              backgroundColor: "#e8cbbb",
               elevation: 0
             },
-            headerTintColor: "#FB3640",
+            headerTintColor: "#4f3214",
             headerTitleStyle: {
               fontWeight: "bold",
             },

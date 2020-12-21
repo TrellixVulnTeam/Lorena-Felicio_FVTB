@@ -6,14 +6,14 @@ export const Container = styled.View`
   flex: 1;
   padding-top: 100px;
   align-items: center;
-  background-color: #E2E2E2;
+  background-color: #e8cbbb;
 `;
 
 export const Text = styled.Text`
   font-size: 40px;
   line-height: 45px;
   font-family: "Poppins_500Medium"
-  color: #605F5E;
+  color: white;
 `;
 
 export const Button = styled.View`
@@ -22,11 +22,11 @@ export const Button = styled.View`
   height: 50px;
   align-items: center;
   justify-content: center;
-  backgroundColor: #FB3640;
+  backgroundColor: #4f3214;
 `;
 
 export const ButtonText = styled.Text`
-  color: #E2E2E2;
+  color: white;
   font-size: 20px;
   font-family: "Poppins_500Medium"
 `;
