@@ -1,8 +1,8 @@
 import styled from 'styled-components/native'
 
 export const Container = styled.View`
-  justify-content: center;
   flex: 1;
+  justify-content: center;
   align-items: center;
   background-color: #e8cbbb;
 `
@@ -15,16 +15,17 @@ export const Text = styled.Text`
 `
 
 export const Button = styled.View`
-  width: 90%;
-  border-radius: 30px;
+  width: 85%;
+  border-radius: 20px;
   height: 50px;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
   backgroundColor: #e8cbbb;
 `
 
 export const ButtonText = styled.Text`
-  color: white;
-  font-size: 20px;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 50px;
   font-family: "Poppins_500Medium"
 `

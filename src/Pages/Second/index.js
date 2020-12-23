@@ -8,15 +8,7 @@ export default function Second ({ navigation }) {
     <Container>
       <Text>
         Segunda página
-      </Text>
-      <TouchableOpacity
-        style={styles.containerButton}
-        onPress={() => navigation.navigate('Main')}
-      >
-        <Button>
-          <ButtonText>Voltar</ButtonText>
-        </Button>
-      </TouchableOpacity>
+      </Text>      
     </Container>
   )
 }
