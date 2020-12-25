@@ -1,5 +1,8 @@
 import styled from 'styled-components/native'
 
-export const Span = styled.Text`
-  color: #026e00;
-`
+export const Container = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+`;

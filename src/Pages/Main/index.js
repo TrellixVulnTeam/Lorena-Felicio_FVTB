@@ -1,8 +1,8 @@
 import * as React from "react";
-import { FontAwesome5 } from '@expo/vector-icons';
+import { FontAwesome5 } from "@expo/vector-icons";
 
-import { Container, Button, ButtonText } from "../style";
-import { Login, Input, Title, GoogleBtn, FacebookBtn } from "./style";
+import { Button, ButtonText } from "../style";
+import { Login, Input, Title, GoogleBtn, FacebookBtn, Container, Text, TextBox } from "./style";
 import { TouchableOpacity, Image, StyleSheet, View } from "react-native";
 
 export default function Home({ navigation }) {
@@ -33,10 +33,18 @@ export default function Home({ navigation }) {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("Second")}>
             <FacebookBtn>
-            <FontAwesome5 name="facebook" size={30} color="white" />
+              <FontAwesome5 name="facebook" size={30} color="white" />
             </FacebookBtn>
-          </TouchableOpacity>
+          </TouchableOpacity>          
         </View>
+        <TextBox>
+          <TouchableOpacity>
+            <Text>Criar uma conta</Text>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Text>Esquece a senha?</Text>
+          </TouchableOpacity>
+        </TextBox>        
       </Login>
     </Container>
   );
@@ -49,7 +57,7 @@ const styles = StyleSheet.create({
     height: 50,
     margin: 25,
     marginBottom: 10,
-    marginTop: 50
+    marginTop: 50,
   },
   titleContainer: {
     width: "85%",

@@ -4,6 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import Main from "@pages/Main";
 import Second from "@pages/Second";
+import Registro from "@pages/Registro";
 
 const Stack = createStackNavigator();
 
@@ -26,7 +27,7 @@ function Routes() {
           name="Second"
           component={Second}
           options={{
-            title: "",
+            title: "Seja bem-vindo",
             headerStyle: {
               backgroundColor: "#e8cbbb",
               elevation: 0
@@ -36,7 +37,22 @@ function Routes() {
               fontWeight: "bold",
             },
           }}
-        />        
+        /> 
+        <Stack.Screen
+          name="Registro"
+          component={Registro}
+          options={{
+            title: "Seja bem-vindo",
+            headerStyle: {
+              backgroundColor: "#e8cbbb",
+              elevation: 0
+            },
+            headerTintColor: "#4f3214",
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
+        />               
       </Stack.Navigator>
     </NavigationContainer>
   );

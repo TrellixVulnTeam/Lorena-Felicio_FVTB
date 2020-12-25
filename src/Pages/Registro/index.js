@@ -4,7 +4,7 @@ import { Text, Button, ButtonText } from "../style";
 import { Container } from "./style";
 import { TouchableOpacity, StyleSheet } from "react-native";
 
-export default function Second({ navigation }) {
+export default function Registro({ navigation }) {
   return (
     <Container>
     </Container>
