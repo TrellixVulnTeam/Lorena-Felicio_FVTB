@@ -62,7 +62,10 @@ export const Text = styled.Text`
   font-size: 16px;
   line-height: 20px;
   color: #e8cbbb;
-  margin: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-left: 20px;
 `;
 
 export const TextBox = styled.View`

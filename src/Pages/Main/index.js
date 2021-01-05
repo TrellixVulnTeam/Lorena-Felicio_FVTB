@@ -38,11 +38,11 @@ export default function Home({ navigation }) {
           </TouchableOpacity>          
         </View>
         <TextBox>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Registro")}>
             <Text>Criar uma conta</Text>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Text>Esquece a senha?</Text>
+            <Text>Esqueceu a senha?</Text>
           </TouchableOpacity>
         </TextBox>        
       </Login>

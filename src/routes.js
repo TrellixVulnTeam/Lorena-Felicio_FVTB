@@ -42,15 +42,11 @@ function Routes() {
           name="Registro"
           component={Registro}
           options={{
-            title: "Seja bem-vindo",
+            title: "",
             headerStyle: {
               backgroundColor: "#e8cbbb",
               elevation: 0
-            },
-            headerTintColor: "#4f3214",
-            headerTitleStyle: {
-              fontWeight: "bold",
-            },
+            },                             
           }}
         />               
       </Stack.Navigator>
